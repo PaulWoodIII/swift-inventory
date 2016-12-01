@@ -1,3 +1,2 @@
-struct Inventory {
-    var text = "Hello, World!"
-}
+import Foundation
+

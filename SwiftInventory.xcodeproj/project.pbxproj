@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAE50F0C1DDA4D0700D56857 /* Consumable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE50F0B1DDA4D0700D56857 /* Consumable.swift */; };
+		DAE50F0F1DDA575D00D56857 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE50F0E1DDA575D00D56857 /* Player.swift */; };
 		OBJ_21 /* SwiftInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SwiftInventory.swift */; };
 		OBJ_28 /* SwiftInventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SwiftInventoryTests.swift */; };
 		OBJ_30 /* SwiftInventory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* SwiftInventory.framework */; };
@@ -23,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DAE50F0B1DDA4D0700D56857 /* Consumable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consumable.swift; sourceTree = "<group>"; };
+		DAE50F0E1DDA575D00D56857 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		OBJ_12 /* SwiftInventoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInventoryTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* SwiftInventory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftInventory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_15 /* SwiftInventoryTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftInventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +53,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DAE50F0D1DDA4D2700D56857 /* GameItems */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GameItems;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +86,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -83,7 +94,6 @@
 				OBJ_10 /* Tests */,
 				OBJ_13 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -97,7 +107,10 @@
 		OBJ_8 /* SwiftInventory */ = {
 			isa = PBXGroup;
 			children = (
+				DAE50F0D1DDA4D2700D56857 /* GameItems */,
 				OBJ_9 /* SwiftInventory.swift */,
+				DAE50F0B1DDA4D0700D56857 /* Consumable.swift */,
+				DAE50F0E1DDA575D00D56857 /* Player.swift */,
 			);
 			name = SwiftInventory;
 			path = Sources;
@@ -154,7 +167,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -170,6 +183,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				DAE50F0C1DDA4D0700D56857 /* Consumable.swift in Sources */,
+				DAE50F0F1DDA575D00D56857 /* Player.swift in Sources */,
 				OBJ_21 /* SwiftInventory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
