@@ -1,0 +1,1 @@
+# Inventory System for crafting items recursively through a dependency tree. Think RPG like or Minecraft like crafting of items but with one click instead of many clicks to create the required items. 
